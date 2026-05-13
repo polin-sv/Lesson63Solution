@@ -36,7 +36,10 @@ int main() {
 
 	BankAccount* account = getRichOwner(accounts);
 
-	cout << account->owner << " - " << account->balance << endl;
+	cout << account->toString() << endl;
+	cout << account01->toString() << endl;
+	cout << account02->toString() << endl;
+	cout << account03->toString() << endl;
 
 	return 0;
 }

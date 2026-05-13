@@ -5,8 +5,14 @@ public:
 	string name;
 	int balance;
 	string owner;
-private:
+	 
+	string toString() {
+		string s = "BankAccount:\n";
+		s += "id: " + name + "\n";
+		s += "balance: " + to_string(balance) + "\n";
+		s += "owner: " + owner;
 
-protected:
+		return s;
+	}
 
 };
